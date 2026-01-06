@@ -1,0 +1,128 @@
+/* RESET DEFAULT BROWSER STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header h3 {
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #334155;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* SECTIONS */
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* SECTION HEADINGS */
+section h2 {
+    color: #1e293b;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #38bdf8;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* SKILLS LIST */
+#skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#skills li {
+    margin: 8px 0;
+}
+
+/* PROJECTS */
+article {
+    background-color: #f1f5f9;
+    padding: 15px;
+    border-left: 5px solid #38bdf8;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+article h3 {
+    color: #0f172a;
+}
+
+/* CONTACT FORM */
+form {
+    margin-top: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #1e293b;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #38bdf8;
+    color: #0f172a;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
